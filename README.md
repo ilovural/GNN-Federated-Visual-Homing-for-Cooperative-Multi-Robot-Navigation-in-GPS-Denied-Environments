@@ -177,8 +177,7 @@ Mean Precision: 63.10% ± 1.50
 Mean Recall:    63.06% ± 1.50
 Mean F1-Score:  63.03% ± 1.51
 
-Total runtime: 328.91 seconds
-]()
+Total runtime: 328.91 seconds]
 
 ### Example of graph visual: 
 [WAVN_GCN_Graph.pdf](https://github.com/user-attachments/files/26418169/WAVN_GCN_Graph.pdf)
@@ -189,3 +188,6 @@ Total runtime: 328.91 seconds
 2. Paykari: (https://share.google/mwQolwX0GaA5rHAw6)
 3. Tensor Flow: (https://www.tensorflow.org/federated)
 4. PyG: (https://pytorch-geometric.readthedocs.io/en/latest/)
+
+## Acknowledgements:
+I would like to express my sincere gratitude to **Dr. Mohamed Rahouti** for his invaluable guidance and mentorship throughout this research. Special thanks to **Dr. Damian Lyons** for his expertise in preparing the Gazebo images, and to **Mr. Nasim Paykari** for his insightful feedback on the GNN/CNN models. Finally, I am  grateful to **Mr. Natnael Desta** for his patience and collaborative spirit throughout this process.
