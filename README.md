@@ -3,16 +3,18 @@
 ## Description: 
 A fundamental challenge for cooperative multi-robot systems is reliable visual navigation in GPS-denied environments. This challenge is especially prevalent when robots operate under heterogenous sensing, computational, and environmental conditions. This model presents a privacy preserving framework for cooperative visual homing, combining decentralised learning with topology-aware scene understanding. The model is a hybrid Convolutional Neural Network (CNN) and Graph Neural Network (GNN), that represents the environment as a topological graph where image embeddings from nodes and navigational transitions form labeled edges for relational reasoning. The CNN portion of the model is frozen, the Graph Convolutional (GCN=GNN+CNN) learns from the graph that the frozen CNN feature extractor helps build.  
 
-### Link to Paper: [insert link]
+### SPIE Paper: [insert link]
 
-### Additional Paper Link: [insert link]
+### Thesis Paper: [insert link]
 
-### Link to CNN Federated Visual Homing for Cooperative Multi-Robot Navigation in GPS Denied Environments by [@natitedros](https://github.com/natitedros): [insert link]
+### Link to CNN Federated Visual Homing for Cooperative Multi-Robot Navigation in GPS Denied Environments by [@natitedros](https://github.com/natitedros): https://github.com/natitedros/WAVN-Federated-Learning
 
 ## Installation:
 
 ### Data Collection: 
 This model's data was collected from a Gazebo environment using an automated script to collect images. The images were processed and paired using a Python script. 
+1. The script for automating the collection of images by the nodes in Gazebo can be found under the file named **GazeboImageCollection.py**.
+2. The script for processing and pairing the images, as well as generating the CSV file can be found in the file named **DataProcessing.py**. 
 
 ### Files: 
 **building_graph.py:** This file includes the froxen feature extractor (EfficientNet B0) which can be changed out with any other CNN geature extractor (such as ResNet, MobileNet, etc). The image pairs, *current* and *destination*, are treated as connections in the global graph. This creates  a four-channel edge-augmented graph accepting RGB and Edge-Segmented images from the dataset (*images\images*). This file has four functions:
