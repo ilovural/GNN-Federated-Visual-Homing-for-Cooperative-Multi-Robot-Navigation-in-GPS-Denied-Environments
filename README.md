@@ -13,8 +13,6 @@ A fundamental challenge for cooperative multi-robot systems is reliable visual n
 
 ### Data Collection: 
 This model's data was collected from a Gazebo environment using an automated script to collect images. The images were processed and paired using a Python script. 
-1. The script for automating the collection of images by the nodes in Gazebo can be found under the file named **GazeboImageCollection.py**. The script was written by Dr. Damian Lyons (Fordham University). 
-2. The script for processing and pairing the images, as well as generating the CSV file can be found in the file named **DataProcessing.py**. 
 
 ### Files: 
 **building_graph.py:** This file includes the froxen feature extractor (EfficientNet B0) which can be changed out with any other CNN geature extractor (such as ResNet, MobileNet, etc). The image pairs, *current* and *destination*, are treated as connections in the global graph. This creates  a four-channel edge-augmented graph accepting RGB and Edge-Segmented images from the dataset (*images\images*). This file has four functions:
