@@ -3,7 +3,7 @@
 ## Description: 
 A fundamental challenge for cooperative multi-robot systems is reliable visual navigation in GPS-denied environments. This challenge is especially prevalent when robots operate under heterogenous sensing, computational, and environmental conditions. This model presents a privacy preserving framework for cooperative visual homing, combining decentralised learning with topology-aware scene understanding. The model is a hybrid Convolutional Neural Network (CNN) and Graph Neural Network (GNN), that represents the environment as a topological graph where image embeddings from nodes and navigational transitions form labeled edges for relational reasoning. The CNN portion of the model is frozen, the Graph Convolutional (GCN=GNN+CNN) learns from the graph that the frozen CNN feature extractor helps build.  
 
-### SPIE Paper: [insert link]
+### [SPIE Paper](https://spie.org/defense-security/presentation/Federated-Visual-Homing-for-Cooperative-Multi-Robot-Navigation-in-GPS/14047-10)
 
 ### Thesis Paper: [insert link]
 
