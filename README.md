@@ -180,7 +180,6 @@ Total runtime: 328.91 seconds]
 ### Example of graph visual: 
 [WAVN_GCN_Graph.pdf](https://github.com/user-attachments/files/26418169/WAVN_GCN_Graph.pdf)
 
-
 ## Resources: 
 1. Blumenkamp: (https://share.google/coTa8EHbpsbMQs4BR)
 2. Paykari: (https://share.google/mwQolwX0GaA5rHAw6)
